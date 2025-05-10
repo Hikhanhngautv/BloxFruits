@@ -1,7 +1,7 @@
 game.StarterGui:SetCore("SendNotification", {
     Title = "W-azure",
     Text = "Loading",
-    Duration = 1
+    Duration = 5
 })
 game.StarterGui:SetCore("SendNotification", {
     Title = "Coming soon",
