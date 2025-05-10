@@ -1,4 +1,4 @@
-game.StarterGui:SetCore("SendNotification", {
+7game.StarterGui:SetCore("SendNotification", {
     Title = "W-azure",
     Text = "Loading",
     Duration = 5
@@ -10,4 +10,3 @@ do local init_fn = function(...)
     script_key = script_key or getgenv().script_key 
 end; 
 init_fn(...); end;
-return(function(l,OQ,t,L,p,VQ,x,m,D,B,d,i,b,cQ,zQ,H,f,j,c,w,G,GQ,q,z,NQ,UQ,lQ,jQ,X,gQ,k,I,qQ,h,T)j=({});
