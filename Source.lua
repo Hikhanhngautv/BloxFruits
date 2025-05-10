@@ -6,5 +6,5 @@ game.StarterGui:SetCore("SendNotification", {
 game.StarterGui:SetCore("SendNotification", {
     Title = "Coming soon",
     Text = "Script chạy OK!",
-    Duration = 5
+    Duration = 10
 })
