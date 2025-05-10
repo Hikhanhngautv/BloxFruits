@@ -3,10 +3,8 @@ game.StarterGui:SetCore("SendNotification", {
     Text = "Loading",
     Duration = 5
 })
-if not is_from_loader then warn('Use the loadstring, do not run this directly') return end;
- 
-do local init_fn = function(...)
- 
-    script_key = script_key or getgenv().script_key 
-end; 
-init_fn(...); end;
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Coming soon",
+    Text = "Script chạy OK!",
+    Duration = 5
+})
